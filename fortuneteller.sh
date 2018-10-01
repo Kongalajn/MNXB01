@@ -193,7 +193,7 @@ dumpfile=$(cat -d fortunes_pp)
 # Extract only the lines containing "message" and save them as $FTTEMPDIR/fortunes_messages
 #<YOUR CODE HERE>
 
-> $FTTEMPDIR/fortunes_messages
+grep "message" > $FTTEMPDIR/fortunes_messages
 
 # E8 (2 points) calculate the number of lines in the fortunes_messages file
 # and store it in a variable NUMMSG
